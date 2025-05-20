@@ -31,6 +31,7 @@ In the Terminal/CMD window type :
 Restarting adb as root
 
 > `adb shell`
+
 > `whoami`
 
 Root
@@ -49,8 +50,11 @@ Rename the new patched image to for example "init_boot_patched.img"
 >`exit`
 
 >`adb pull /sdcard/Download/init_boot_patched.img desktop`
+
 >`adb reboot bootloader`
+
 >`fastboot flash init_boot init_boot_patched.img` or you can just drag the patched img to the terminal/cmd window
+
 >`fastboot reboot`
 
 ## And your device is now rooted :D
